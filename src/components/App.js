@@ -30,11 +30,11 @@ class Child extends Component {
   render() {
     return (
       <div>
-        <h1>parent Component</h1>
-        <h2>child Component</h2>
-        <button onClick={this.props.handleClick}>show Modal</button>
-        <h3>model Content</h3>
-        <p>this is the model Content</p>
+        <h1>Parent Component</h1>
+        <h2>Child Component</h2>
+        <button onClick={this.props.handleClick}>Show Modal</button>
+        <h3>Modal Content</h3>
+        <p>this is the modal content</p>
         {this.props.showModal && <div className="modal">Modal Content</div>}
       </div>
     );
